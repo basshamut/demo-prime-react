@@ -1,0 +1,19 @@
+/* Estilos base para los botones */
+.custom-button {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    padding: 0.25rem 0.5rem; /* Reducción del relleno */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .custom-button {
+        width: 100%; /* Ancho completo en pantallas pequeñas */
+    }
+}
+
+@media (min-width: 601px) {
+    .custom-button {
+        width: auto; /* Ajuste automático del ancho en pantallas grandes */
+        padding: 0.5rem 1rem; /* Tamaño de relleno ajustado para pantallas grandes */
+    }
+}
